@@ -1,0 +1,14 @@
+{
+  "name": "locapi",
+  "version": "1.0.0",
+  "description": "an api that uses a API provided by DWP to gather users within 50 miles of London",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Cotton",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
