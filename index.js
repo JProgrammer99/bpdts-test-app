@@ -1,6 +1,5 @@
 // require fetch so we can use it
 const fetch = require("node-fetch");
-const JSON = require("json");
 
 var londonLat = 51.5074;
 var londonLong = 0.1277;
@@ -57,7 +56,7 @@ async function run(){
         console.log("ID: " + londonJson[i].id + ", First Name: " + londonJson[i].first_name + ", Last Name: " + londonJson[i].last_name + ", Email: " + londonJson[i].email + ", IP: "
         + londonJson[i].ip_address + ", Latitude: " + londonJson[i].latitude + ", Longitude: " + londonJson[i].longitude);
     }
-    
+
   } else {
     alert("HTTP-Error: " + londonResponse.status);
   }
