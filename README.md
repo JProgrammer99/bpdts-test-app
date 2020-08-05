@@ -1,9 +1,28 @@
 # test-application
 
-This is a project made for a job application.
-Developed in NodeJS, node is required to run the application.
+### A solution to the following Problem
+Using the language of your choice please build your own API which calls the API at https://bpdts-test-app.herokuapp.com/, and returns  people who are listed as either living in London, or whose current coordinates are within 50 miles of London.
 
-When index.js is ran, it will output the desired results specified by the recruitment team.
+When index.js is ran, it will launch an express server for the API to be enquired on.
 
-# Dependencies
-test-application is dependant on node-fetch, express, and geopoint to run. These packages are included. 
+## Dependencies
+- NodeJS
+- Node-Fetch
+- Express
+- Geopoint
+
+## Run App
+```js
+$ npm install
+$ node index.js
+```
+
+### Query API
+```bash
+$ curl -X GET "http://localhost:3000/users/london/" -H "accept: application/json"
+```
+
+## Run Tests
+```js
+$ npm test
+```
