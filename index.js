@@ -1,4 +1,4 @@
-var express = require('express'),
+const express = require('express'),
   app = express(),
   port = process.env.PORT || 3000;
 const api = require('./user');
@@ -11,3 +11,5 @@ app.get('/users/london/', async (req, res) => {
 });
 
 console.log('BPDTS Test App RESTful API server started on: ' + port);
+
+module.exports = app;
