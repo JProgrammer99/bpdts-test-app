@@ -7,9 +7,13 @@ When index.js is ran, it will launch an express server for the API to be enquire
 
 ## Dependencies
 - NodeJS
+- Body-Parser
 - Node-Fetch
 - Express
 - Geopoint
+- Chai
+- Chai-Http
+- Mocha
 
 ## Run App
 ```js
