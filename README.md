@@ -26,6 +26,11 @@ $ node index.js
 $ curl -X GET "http://localhost:3000/users/london/" -H "accept: application/json"
 ```
 
+Or you can use Postman for example, using GET with the url:
+```bash
+localhost:3000/users/London
+```
+
 ## Run Tests
 ```js
 $ npm test
